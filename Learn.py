@@ -88,3 +88,10 @@ num = [1, 2, 3]
 y = reverse_list(num)
 # print(y)
 print(num)
+
+
+def powers_of_two(n):
+    return [2 ** i for i in range(n + 1)]
+
+
+print(powers_of_two(8))
