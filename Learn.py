@@ -44,12 +44,13 @@
 # print(names)
 # print(names[0:3])
 
-# numbers = [1, 2, 3, 4, 5]
-# numbers.append(6)
-# numbers.insert(6,4)
-# numbers.remove(4)
-# print(len(numbers))
-# print(numbers)
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)
+numbers.insert(6, 4)
+numbers.remove(4)
+print(len(numbers))
+print(numbers)
+
 
 # for item in numbers:
 #     print(item)
@@ -73,6 +74,17 @@
 #     else:
 #         print(fizz)
 
-numbers = (1, 2, 3, 3)
-count = numbers.count(3)
-print(count)
+# numbers = (1, 2, 3, 3)
+# count = numbers.count(3)
+# print(count, "two")
+
+# --------------------------------------------------------
+
+def reverse_list(x):
+    return x.reverse()
+
+
+num = [1, 2, 3]
+y = reverse_list(num)
+# print(y)
+print(num)
