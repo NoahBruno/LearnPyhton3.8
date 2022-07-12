@@ -44,12 +44,12 @@
 # print(names)
 # print(names[0:3])
 
-numbers = [1, 2, 3, 4, 5]
-numbers.append(6)
-numbers.insert(6, 4)
-numbers.remove(4)
-print(len(numbers))
-print(numbers)
+# numbers = [1, 2, 3, 4, 5]
+# numbers.append(6)
+# numbers.insert(6, 4)
+# numbers.remove(4)
+# print(len(numbers))
+# print(numbers)
 
 
 # for item in numbers:
@@ -80,18 +80,25 @@ print(numbers)
 
 # --------------------------------------------------------
 
-def reverse_list(x):
-    return x.reverse()
+# def reverse_list(x):
+#     return x.reverse()
+#
+#
+# num = [1, 2, 3]
+# y = reverse_list(num)
+# # print(y)
+# print(num)
+#
+#
+# def powers_of_two(n):
+#     return [2 ** i for i in range(n + 1)]
+#
+#
+# print(powers_of_two(8))
 
+# beginner series #2 clock CODEWARS
+def past (h, m, s):
+    return (h * 3600000) + (m * 60000) + (s * 1000)
 
-num = [1, 2, 3]
-y = reverse_list(num)
-# print(y)
-print(num)
+print(past(3, 5, 6))
 
-
-def powers_of_two(n):
-    return [2 ** i for i in range(n + 1)]
-
-
-print(powers_of_two(8))
