@@ -96,9 +96,22 @@
 #
 # print(powers_of_two(8))
 
+# ------------------------------------------------------------------------
 # beginner series #2 clock CODEWARS
-def past (h, m, s):
-    return (h * 3600000) + (m * 60000) + (s * 1000)
+# def past (h, m, s):
+#     return (h * 3600000) + (m * 60000) + (s * 1000)
+#
+# print(past(3, 5, 6))
+# -------------------------------------------------------------------------
+# Calculate BMI
 
-print(past(3, 5, 6))
+def bmi(weight, height):
+    bmis = weight / height ** 2
+    if bmis <= 18.5: return "Underweight"
+    elif bmis <= 25: return "Normal"
+    elif bmis <= 30: return "Overweight"
+    else: return "Obese"
+
+
+print(bmi(68, 74))
 
