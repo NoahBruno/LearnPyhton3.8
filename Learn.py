@@ -105,13 +105,20 @@
 # -------------------------------------------------------------------------
 # Calculate BMI
 
-def bmi(weight, height):
-    bmis = weight / height ** 2
-    if bmis <= 18.5: return "Underweight"
-    elif bmis <= 25: return "Normal"
-    elif bmis <= 30: return "Overweight"
-    else: return "Obese"
+# def bmi(weight, height):
+#     bmis = weight / height ** 2
+#     if bmis <= 18.5: return "Underweight"
+#     elif bmis <= 25: return "Normal"
+#     elif bmis <= 30: return "Overweight"
+#     else: return "Obese"
+#
+#
+# print(bmi(68, 74))
+
+def multiply(a, b):
+    return a * b
+
+print(multiply(4, 5))
 
 
-print(bmi(68, 74))
 
