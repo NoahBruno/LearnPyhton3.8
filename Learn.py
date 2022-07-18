@@ -114,14 +114,19 @@
 #
 #
 # print(bmi(68, 74))
+#
+# array diff
+def array_diff(a, b):
+    if len(b) == 0:
+        return a
 
-def multiply(a, b):
-    return a * b
+    for i in b:
+        if i in a:
+            for n in range(a.count(i)):
+                a.remove(i)
+    return a
 
-print(multiply(4, 5))
 
-def even_or_odd(number):
-    return "Even" if number % 2 == 0 else "Odd"
-
-print(even_or_odd(18))
-
+arr1 = [1,2,3,4]
+arr2 = [1,2,3]
+print(array_diff(arr1, arr2))
