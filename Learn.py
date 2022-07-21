@@ -130,11 +130,15 @@
 # arr1 = [1,2,3,4]
 # arr2 = [1,2,3]
 # print(array_diff(arr1, arr2))
+#
+# def grow(arr):
+#     m = 1
+#     for n in arr:
+#         m *= n
+#     return m
+#
+# print(grow([3, 4, 5]))
+def divisible_by (num, div):
+    return [n for n in num if n % div == 0]
 
-def grow(arr):
-    m = 1
-    for n in arr:
-        m *= n
-    return m
-
-print(grow([3, 4, 5]))
+print(divisible_by([1,2,3,4,5,6], 2))
